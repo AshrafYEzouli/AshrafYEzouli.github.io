@@ -1,0 +1,46 @@
+header {
+    font-weight: 500;
+    font-size: 30pt;
+    color: cornsilk;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-family: Bradley Hand, cursive;
+    font-style: italic;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 20%;
+    height: 20em;
+    display: block;
+    border-radius: 30%;
+    border-color: black;
+    border: 3px solid;
+}
+body {
+    background-image: url(../images/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+    color: white;
+    font-size: 17pt;
+    font-family: monospace;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width:200%;
+    background-color: rgb(36, 156, 196);
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+  }
+  
+  li::before {
+    content: "• ";
+    color: black;
+  }
