@@ -8,7 +8,8 @@ header {
     font-family: Bradley Hand, cursive;
     font-style: italic;
 }
-img {
+
+.profilePic {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -19,28 +20,59 @@ img {
     border-color: black;
     border: 3px solid;
 }
+
 body {
     background-image: url(../images/homebg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 li {
     color: white;
     font-size: 17pt;
     font-family: monospace;
 }
+
 footer {
     position: fixed;
     bottom: 0px;
-    width:200%;
+    width: 200%;
     background-color: rgb(36, 156, 196);
     background-repeat: no-repeat;
 }
+
 ul {
     list-style: none;
-  }
-  
-  li::before {
+}
+
+li::before {
     content: "• ";
     color: black;
-  }
+}
+
+.w3cValidator {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 50px;
+    width: 100px;
+    padding: 5pt;
+}
+
+#assignmentsList {
+    background-color: ;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
