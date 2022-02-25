@@ -8,13 +8,95 @@
     <meta name="description" content="About Me Page">
     <meta name="keywords" content="HTML5,CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- not neseccery to use rel and type, can use just href -->
-    <link rel="shortcut icon" href="./images/aboutme.png" type="image">
+    <link rel="shortcut icon" href="./images/aboutme.png" type="image/gif">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <p class="about">About Ashraf Ezouli</p>
+    <div class="header_section">
+        <div class="menus">
+            <a href="index.html" class="menu_item">
+                Home
+            </a>
+            <a class="menu_item" href="pie.html">
+                Grandma Recipe
+            </a>
+        </div>
+    </div>
+    <div>
+        <h1>About <span class="name">Ashraf Ezouli</span></h1>
+        <p> My Name Is Ashraf Ezouli. I am from <span class="special">Jordan</span>. I love playing video games and
+            playing Soccer with my friends. Sometimes when I get bored I'd like to run and hang out with friends.</p>
+    </div>
+    <div class="courses_section">
+        <h2>My courses in this Quater</h2>
+        <ul>
+            <li>CS472 - Web Programming</li>
+            <li>CS425 - Software Engineering</li>
+            <li>CS590 - Software Architecture</li>
+            <li>CS435 - Algorithms</li>
+        </ul>
+    </div>
+    <div class="movies_section">
+        <h2>My favourite Movies</h2>
+        <ol>
+            <li>
+                <span>The Transporter <a href="https://www.imdb.com/title/tt0293662/?ref_=nv_sr_srsg_0" target="blank">(IMDB)</a></span>
+                <dl>
+                    <dt>Director</dt>
+                    <dd>Louis Leterrier && Corey Yuen</dd>
+                    <dt>Genres</dt>
+                    <dd>Action, Crime, Thriller </dd>
+                    <dt>Taglines</dt>
+                    <dd>Rules are made to be broken.</dd>
+                </dl>
+            </li>
+            <li>Spider-Man 2 <a href="https://www.imdb.com/title/tt0316654/?ref_=nv_sr_srsg_9" target="blank">(IMDB)</a></li>
+            <li>Inception <a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_0" target="blank">(IMDB)</a></li>
+        </ol>
+    </div>
+    <div class="mood_section">
+        <h2>My Moods</h2>
+        <div class="mood_images">
+            <div class="sad">
+                <img src="./images/sad.jpg" alt="sad" />
+                <div>
+                    <span>Sad</span>
+                </div>
+            </div>
+            <div class="happy">
+                <img src="./images/happy.jpg"
+                    alt="happy" />
+                <div>
+                    <span>Happy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="neighbor_section">
+        <h2>Fun facts about my neighbors</h2>
+        <ul>
+            <li>Muhammad - He is a very <span class="special">funy</span> man.</li>
+            <li>Sameer - He is a <span class="special">kind</span> and <span class="special">fictional</span> person</li>
+        </ul>
+    </div>
+
+    <footer>
+        <div>
+            <span><strong>&copy; Ashraf Ezouli</strong></span>
+        </div>
+        <div>
+            <a href="http://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' +
+                document.URL">
+                <img src="../images/w3c-html.png" alt="html validator" />
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/validator?uri=referer" onclick="this.href='http://jigsaw.w3.org/css-validator/validator?uri=' +
+            document.URL">
+                <img src="../images/w3c-css.png" alt="Valid CSS!" />
+            </a>
+
+        </div>
+    </footer>
 </body>
 
 </html>
